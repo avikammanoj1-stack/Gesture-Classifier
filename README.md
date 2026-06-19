@@ -38,7 +38,6 @@ https://gesture-908fb.web.app
 - Smooth and modern user interface
 
 ---
-
 ## 📸 Application Preview
 
 <p align="center">
