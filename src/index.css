@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --animate-border-glow: border-glow 2s infinite alternate;
+
+  @keyframes border-glow {
+    0% {
+      border-color: rgba(59, 130, 246, 0.4);
+      box-shadow: 0 0 4px rgba(59, 130, 246, 0.2);
+    }
+    100% {
+      border-color: rgba(59, 130, 246, 1);
+      box-shadow: 0 0 16px rgba(59, 130, 246, 0.6);
+    }
+  }
+}
+
+
